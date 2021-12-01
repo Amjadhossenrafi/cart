@@ -13,7 +13,7 @@ const products = [
   { name: "watch", src: "images/watch.jpg" },
 ];
 
-//render method
+//render function
 function render(items, renderFeild, type, className) {
   items.forEach((item) => {
     let element = document.createElement("div");
