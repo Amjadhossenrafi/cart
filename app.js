@@ -30,7 +30,7 @@ function removedups(array) {
   return [...set];
 }
 
-//for showing items in the cart
+//for showing number of items in the cart
 const number = document.querySelector(".number");
 function showItemNumber(array) {
   return array.length;
