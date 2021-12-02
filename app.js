@@ -6,13 +6,14 @@ Adib, [01-Dec-21 12:29 PM]
 3. Update UI based on add/remove
 */
 
-const products = [
-  { name: "Blender", src: "images/blender.jpg" },
-  { name: "Perfume", src: "images/perfume.jpg" },
-  { name: "Phone cover", src: "images/phone_cover.jpg" },
-  { name: "watch", src: "images/watch.jpg" },
-];
+// const products = [
+//   { name: "Blender", src: "images/blender.jpg" },
+//   { name: "Perfume", src: "images/perfume.jpg" },
+//   { name: "Phone cover", src: "images/phone_cover.jpg" },
+//   { name: "watch", src: "images/watch.jpg" },
+// ];
 
+import { data as products } from "./prods.js";
 //render function
 function render(items, renderFeild, type, className) {
   items.forEach((item) => {
